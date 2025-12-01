@@ -13,7 +13,7 @@ for (let i = 0; i < quiz.length; i++) {
   userAnswer = userAnswer.trim().toLowerCase();
 
   if (userAnswer === quiz[i].answer) {
-    alert("Correct! 🎉");
+    alert("Correct! ✔️");
     score++;
   } else {
     alert("Wrong ❌ The correct answer is: " + quiz[i].answer);
